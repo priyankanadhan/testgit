@@ -8,6 +8,7 @@ use Aws\Ses\Exception\SesException;
 require BASE_PATH.'/vendor/autoload.php';
 class AccountstatusController extends \Phalcon\Mvc\Controller {
 	public function index() {
+		echo "test";
 	}
 	/**
 	 * Fetch all Record from database :-
